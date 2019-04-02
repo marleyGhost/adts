@@ -22,6 +22,10 @@ class List //begin List definition
      
      /** MISSING OPERATIONS */
      //... fill in ....
+     
+     void clear();//make the ADT empty
+     int get(int k, int element); //get element at location k
+     
 
 };//end List definition
 

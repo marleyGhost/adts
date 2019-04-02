@@ -91,5 +91,16 @@ void List::remove(int k)
 	num_elements--;
 	}
 	
-	//Implementations of missing operations
+void List:: clear()
+{
+	if (frontPtr == nullptr)
+	{
+		for (int k=0; k=(num_elements-1); k++)
+		remove(k);
+	}
+}
 	
+int List:: get(int k, int element)
+{
+	
+}
